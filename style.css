@@ -86,7 +86,7 @@ header {
 .dropdown-menu a {
     padding: 0.5rem 1rem;
     display: block;
-    white-space: nowrap;
+    font-size: small;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -103,7 +103,7 @@ main {
     border-radius: 5px;
 }
 
-main img {
+main img, video {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
