@@ -33,35 +33,31 @@
     <!-- Page Content -->
     <main>
         <section id="home">
-            <h1>Spatial Database for Car Crashes</h1>
-            <video controls>
-                <source src="videos/Weather App Walkthrough.mp4" type="video/mp4">
-            </video>
+            <h1>Full Stack Weather Application</h1>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/SRSFHCR6jXk?si=kVskd_4IyKmiLN5E" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
             <p style="font-size: smaller;">
-                Finished web map product
+                Video walkthrough of the application
             </p>
-            <p>This project was an undergraduate research project completed at UW La Crosse in conjunction with the Geography and Earth Science deparment, and Computer Science department.
-                The main goal was to map the routes employees took from their houses to work every day.  This data was acquired through a survey sent out to 8 different employers located within La Crosse.
-                Important submission data included intersection closest to the employee's home, mode of transportation, average commute length, etc..
-                This project was presented at the Midwest Undergraduate Geography Symposium hosted at UW River Falls in May 2024.
+            <p>This project combined frontend and backend coding to create a full stack application.  The backend was hosted on an AWS EC2 instance, with API calls being made
+                to the free OpenWeatherMap service.  The front end was styled using Bootstrap, and used Leaflet to visualize the API requests.  The background of the application 
+                dynamically updates based on the current weather of the searched area.  Four APIs from the OpenWeatherMap service were used to fully create this project.
             </p>
             <h3 style="text-align: center;">Technologies Used</h4>
             <p style="margin-left: 1px;">
-                -- Python <br>
-                -- ArcPy <br>
-                -- Folium <br>
+                -- JavaScript <br>
+                -- AWS <br>
+                -- OpenWeatherMap API <br>
                 -- Leaflet <br>
-
-            </p>
-            <p>
-                <a href="https://rmfell.github.io/La_Crosse_Transportation_Flow_Map/" style="color: blue;">Check out the web map here!</a>
+                -- Bootstrap
             </p>
         </section>
     </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>Author: Jacob Kampf || Last edited: 12/9/2024</p>
-    </footer>
 </body>
 </html>
